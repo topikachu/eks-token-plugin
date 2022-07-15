@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  # this is the jenkins id.
+  name: "a-test-eks"
+  labels:
+    # so we know what type it is.
+    "jenkins.io/credentials-type": "eks"
+  annotations:
+    # description - can not be a label as spaces are not allowed
+    "jenkins.io/credentials-description": "eks1 token"
+type: Opaque
+data:
+  awsCredentialsId: YXdzLTE=
+  clusterName: ZWtzMQ==
+  region: dXMtd2VzdC0y
