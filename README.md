@@ -39,7 +39,10 @@ data:
 
 
 ```
-
+### Token Algorithm
+The token algorithm is from
+[aws cli code](https://github.com/aws/aws-cli/blob/develop/awscli/customizations/eks/get_token.py)
+and inspired by [Programmatically Accessing an Amazon EKS Kubernetes Cluster](https://faddom.com/accessing-an-amazon-eks-kubernetes-cluster/).
 ## Contribution
 Refer to our [contribution guidelines](https://github.com/jenkinsci/.github/blob/master/CONTRIBUTING.md)
 
