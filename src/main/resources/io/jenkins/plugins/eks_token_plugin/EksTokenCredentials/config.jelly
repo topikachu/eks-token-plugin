@@ -14,7 +14,4 @@
         <c:select checkMethod="post"/>
     </f:entry>
 
-<!--    <f:validateButton-->
-<!--            title="${%Test Connection}" progress="${%Testing...}"-->
-<!--            method="testConnection" with="appID,apiUri,privateKey,owner" />-->
 </j:jelly>

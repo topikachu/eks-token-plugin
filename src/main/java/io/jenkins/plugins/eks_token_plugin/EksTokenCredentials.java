@@ -131,6 +131,7 @@ public class EksTokenCredentials extends BaseStandardCredentials
 
 
         public ListBoxModel doFillAwsCredentialsIdItems() {
+            Jenkins.get().checkPermission(Jenkins.SYSTEM_READ); // or Jenkins.getInstance() on older core baselines
             StandardListBoxModel result = new StandardListBoxModel();
 
             return result
