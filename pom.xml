@@ -44,7 +44,7 @@
         <java.level>8</java.level>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
         <aws-credentials.version>1.33</aws-credentials.version>
-        <kubernetes-credentials-provider.version>0.13</kubernetes-credentials-provider.version>
+        <kubernetes-credentials-provider.version>1.199.v4a_1d1f5d074f</kubernetes-credentials-provider.version>
 
     </properties>
 
